@@ -20,4 +20,11 @@ export class AppComponent implements OnInit {
     console.log(value);
   }
 
+  compare(randomLetter: string, enteredLetter: string){
+    if(!enteredLetter){
+      return 'pending';
+    }
+    return randomLetter === enteredLetter ? 'correct' : 'incorrect';
+  }
+
 }
