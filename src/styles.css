@@ -1,2 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-@import 'bulma/css/bulma.css'
+@import 'bulma/css/bulma.css';
+
+body{
+    background-color: #6a2c70;
+    height: 100vh;
+}
